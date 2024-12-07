@@ -1,7 +1,9 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div>Hello world</div>
+    <div>\
+      <h1>
+        hy this is raima
+      </h1>
+      </div>
   );
 }
