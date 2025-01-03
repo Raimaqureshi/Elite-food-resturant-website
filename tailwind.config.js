@@ -9,9 +9,16 @@ exports.default = {
     theme: {
         extend: {
             colors: {
+                'custom-orange': '#FF9F0D',
+                'custom-orange-light': '#FFB84D',
+                'custom-orange-dark': '#D77A00', 
                 background: "var(--background)",
                 foreground: "var(--foreground)",
             },
+            fontFamily: {
+                'great-vibes': ['Great Vibes', 'serif'], 
+                
+              },
             screens: {
                 sm: '480px',
                 md: '768px',
